@@ -1,0 +1,57 @@
+EPS — Sistema de Cálculo de Pedido
+
+1. Entrada
+
+O programa recebe as seguintes informações:
+
+Produto: nome do produto adquirido.
+
+Preço unitário: valor individual do produto.
+
+Quantidade: número de unidades compradas.
+
+Desconto percentual: porcentagem de desconto aplicada ao pedido.
+
+2. Processamento
+
+Declarar as constantes referentes ao produto, preço, quantidade e desconto.
+
+Calcular o subtotal multiplicando o preço unitário pela quantidade.
+
+Calcular o valor do desconto dividindo o percentual por 100 e multiplicando pelo subtotal.
+
+Calcular o total subtraindo o valor do desconto do subtotal.
+
+Verificar se o preço unitário e a quantidade são maiores que zero.
+
+Verificar se o desconto está entre 0% e 100%, utilizando o operador lógico &&.
+
+Determinar se o pedido possui frete grátis, verificando se o total é igual ou superior a 100 ou se a quantidade é igual ou superior a 5, utilizando o operador ||.
+
+Verificar se o pedido atende às condições de uma oferta especial.
+
+Exibir os resultados dos cálculos e das verificações no console.
+
+3. Saída
+
+O programa apresenta:
+
+Nome do produto.
+
+Preço unitário.
+
+Quantidade adquirida.
+
+Percentual de desconto.
+
+Valor do subtotal.
+
+Valor descontado.
+
+Total a pagar.
+
+Validade do pedido.
+
+Disponibilidade de frete grátis.
+
+Resultado da condição de oferta especial.

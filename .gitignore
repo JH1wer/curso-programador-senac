@@ -1,0 +1,4 @@
+# nao quero incluir os paths/to/node_modules
+**/node_modules
+
+**/temp.txt
