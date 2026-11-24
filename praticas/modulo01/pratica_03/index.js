@@ -105,7 +105,6 @@ function showMenu() {
   registerNewProduct("lapis", 4, 300);
   registerNewProduct("quemax", 50, 10);
  
-  // isso nao funciona em qualquer terminal
   console.clear();
   
   let windowLooped = true;
