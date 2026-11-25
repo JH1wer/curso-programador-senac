@@ -1,17 +1,20 @@
+let produtos = ["Teclado", "Outro Produto", "Teclado"]
 
-/**
- * Retorna uma cópia segura do item que deseja cortar do
- * array principal
- * 
- * @param {String []} array 
- * @param {String} name
- * @return {String []}
- */
-var removeElementFromStringArray = function(array, name) {
-    let targetIndex;
-    let targetIndexPlusOne;
+let tecladoDeTrasParaFrente = produtos.lastIndexOf("Teclado")
+let tecladoLinear = produtos.indexOf("Teclado")
 
-    targetIndex = array.
+console.log("linear frente", tecladoLinear, "linar reverso", tecladoDeTrasParaFrente)
 
-    return array.slice(targetIndex, targetIndexPlusOne);
-}
+let a = [2,1,4,3];
+let soma = 0;
+let maior;
+let menor;
+
+// ... spread
+maior = Math.max(...a)
+menor = Math.min(...a)
+
+a.sort((a, b) => a - b)
+a.forEach((e) => soma += e)
+
+console.log (soma, a)
